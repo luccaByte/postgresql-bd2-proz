@@ -3,7 +3,7 @@ CREATE TABLE clientes (
     id_cliente SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
-    data_cadastro TIMESTAMP
+    data_cadastro DATE
 );
 
 INSERT INTO clientes (nome, email, data_cadastro) VALUES
